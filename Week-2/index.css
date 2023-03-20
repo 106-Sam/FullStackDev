@@ -1,0 +1,14 @@
+.submit{
+    margin-left: 10px;
+}
+.reset{
+    margin-left: 30px;
+}
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+input{
+    margin: 20px;
+}
