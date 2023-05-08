@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        body{
+            background-color: rgb(15, 14, 14);
+            color: rgb(0,244,0);
+        }
+    </style>
+</head>
+<body>
+    <h2>Simple Calculator</h2>
+    <form method="post" action="calc.php" >  
+        <table>
+            <tr>
+                <td>Enter First Number: </td>
+                <td><input type="text" name="fnum"></td>
+            </tr>
+            <tr>
+                <td>Enter Second Number: </td>
+                <td><input type="text" name="snum"></td>
+                &nbsp;&nbsp;&nbsp;
+            </tr>
+            <tr><td></td></tr>
+            <tr>
+                <td colspan="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" name="op" value="+">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" name="op" value="-" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" name="op" value="*">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" name="op" value="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" name="op" value="%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
