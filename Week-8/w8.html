@@ -1,0 +1,17 @@
+<html lang="en" ng-app="addSkills">
+<head>
+</head>
+<body ng-controller="addSkillsController">
+<h1>Add your Skills</h1>
+<form name="skillsFrm" ng-submit="addSkill()">
+<input type="text" name="newSkill" ng-model="newSkill" required />
+<button ng-disabled="skillsFrm.$invalid" ng-click="addSkill()">Add</button>
+</form>
+<ul>
+<li ng-repeat="skill in skills" class="{'fadeOut' : skill.done}">
+<span class="fa fa-close" ng-click="deleteSkill($index)"></span>
+<span>{{skill.title}}</span>
+</li>
+</ul>
+</body>
+</html>
